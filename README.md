@@ -76,7 +76,7 @@ platform.disconnect()
 results, fit_time = rabi_amplitude.fit(data=data)
 
 # visualize the results
-plots, table = rabi_amplitude.report(data=data, results=results, target=target[0])
+plots, table = rabi_amplitude.report(data=data, results=results, target=targets[0])
 plots[0].show()
 ```
 

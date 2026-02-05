@@ -28,6 +28,10 @@ jinja2 = "^3.1.2"
 plotly = "^5.22.0"
 skops = ">=0.11,<0.14"
 cma = "^3.3.0"
+matplotlib = "^3.10.8"
+qutip = "^5.2.3"
+nbformat = "^5.10.4"
+ipykernel = "^7.1.0"
 
 [tool.poetry.group.tests]
 optional = true
@@ -51,6 +55,10 @@ ruff = "^0.9.1"
 "tests/calibration_scripts/**/*.py" = ["F821"]
 
 
+
+
+
+
 [tool.poetry.group.docs]
 optional = true
 
@@ -62,6 +70,10 @@ recommonmark = "^0.7.1"
 sphinx_markdown_tables = "^0.0.17"
 sphinx-copybutton = "^0.5.1"
 setuptools = ">=75.8,<79.0"
+
+
+
+
 
 
 [tool.poetry.group.dev]
