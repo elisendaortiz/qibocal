@@ -1,0 +1,16 @@
+actions:
+- id: resonator high power high amplitude
+  operation: resonator_spectroscopy
+  parameters:
+    amplitude: 0.4
+    freq_step: 100000
+    freq_width: 10000000
+    nshots: 1024
+    power_level: high
+  targets: null
+  update: true
+backend: qibolab
+platform: qw5q_platinum
+targets:
+- 0
+update: true

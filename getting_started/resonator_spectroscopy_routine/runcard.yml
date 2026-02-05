@@ -1,0 +1,16 @@
+actions:
+- id: rabi
+  operation: rabi_amplitude
+  parameters:
+    max_amp: 0.2
+    min_amp: 0.01
+    nshots: 2000
+    pulse_length: 40
+    step_amp: 0.02
+  targets: null
+  update: true
+backend: qibolab
+platform: qubit
+targets:
+- 0
+update: true

@@ -1,0 +1,27 @@
+{
+    "title": "resonator_spectroscopy_routine",
+    "backend": "qibolab",
+    "platform": "qubit",
+    "start_time": "2026-02-05 07:33:00.330190+00:00",
+    "end_time": "2026-02-05 07:33:01.020277+00:00",
+    "stats": {
+        "rabi-0": {
+            "acquisition": 0.6633451669986243,
+            "fit": 0.020861082997726044
+        }
+    },
+    "author": null,
+    "tag": null,
+    "targets": [
+        0
+    ],
+    "versions": {
+        "qibo": "0.2.20",
+        "numpy": "2.2.6",
+        "qibolab": "0.2.8",
+        "qibocal": "0.2.5"
+    },
+    "date": "2026-02-05",
+    "start-time": "07:33:00",
+    "end-time": "07:33:01"
+}

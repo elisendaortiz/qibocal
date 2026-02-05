@@ -1,0 +1,22 @@
+{
+    "title": "resonator_spectroscopy_routine_2",
+    "backend": "qibolab",
+    "platform": "qw5q_platinum",
+    "start_time": null,
+    "end_time": null,
+    "stats": {},
+    "author": null,
+    "tag": null,
+    "targets": [
+        0
+    ],
+    "versions": {
+        "qibo": "0.3.0",
+        "numpy": "2.2.6",
+        "qibolab": "0.2.12",
+        "qibocal": "0.2.5"
+    },
+    "date": null,
+    "start-time": null,
+    "end-time": null
+}
